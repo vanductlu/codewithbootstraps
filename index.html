@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./icons-1.3.0/icons-1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Code With Bootstraps</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What you'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactmap" class="nav-link">Contact & Map</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center">
+          <div>
+            <h1>Become a <span class="text-warning"> Web Developer </span></h1>
+            <p class="lead my-4">
+              Tôi đã học qua HTML:CSS được khoảng 3 tháng.
+              Bây giờ vẫn đang tiếp tục học JS và kèm thêm framework Bootstraps 
+              Lộ trình tiếp theo sẽ là Jquery, Reactjs, ReactNative, MongoDB
+              <br>
+              Còn học được hay không thì hên xui.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+               I'm Coming...
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="./img/male-1781413_1280.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="bg-secondary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title">Virtual</h3>
+                <p class="card-text">
+                  Học từ các khóa học Online trên mạng,
+                  tìm tòi các trang web trau dồi kiến thức.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title">Hybrid</h3>
+                <p class="card-text">
+                  Từ học 1 mình.không hiểu thì học tiếp nào hiểu thì thôi
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title">In Person</h3>
+                <p class="card-text">
+                  Từ phần ở trên học đéo hiểu thì đi hỏi bạn, hỏi bạn đéo hiểu nữa thì hỏi các anh.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="./img/fundamentals.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn the Fundamentals</h2>
+            <div class="lead">
+              <p>
+                Tài liệu trực tuyến và khóa học miễn phí: Có nhiều tài liệu học trực tuyến và khóa học miễn phí giúp bạn bắt đầu học HTML, CSS và JavaScript. Một số nguồn phổ biến bao gồm:
+              </p>
+            </div>
+            <p>
+                + MDN Web Docs: https://developer.mozilla.org/
+                <br>
+                + W3Schools: https://www.w3schools.com/
+                <br>
+                + Codecademy: https://www.codecademy.com/
+                <br>
+                + FreeCodeCamp: https://www.freecodecamp.org/ 
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Learn React  -->
+    <section id="learn" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between text-light">
+          <div class="col-md p-5">
+            <h2>Learn React</h2>
+            <div class="lead">
+              <p>
+                Nền tảng kiến thức cần thiết:
+              </p>
+            </div>
+            <p>
+                Hiểu về HTML, CSS và JavaScript: React dựa trên các ngôn ngữ này, vì vậy nắm vững các khái niệm cơ bản là quan trọng.
+                <br>
+                Có kiến thức về ES6+: React sử dụng cú pháp và tính năng của ES6+ (ECMAScript 2015 và các phiên bản sau đó). Hãy tìm hiểu về arrow function, destructuring, classes, modules và các tính năng khác của ES6+.
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="./img/fox-1419594.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Where are you learning?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Nếu mày học ở nhà thì tránh xa các thằng nhậu nhẹt chơi bời ra không thì phí công.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                How do you learn?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Học có giờ giấc đàng hoàng, đừng cứ hở tí FO4 hở tí Zombie là chết mẹ liền.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What have you learned?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Học được những gì thì tự ghi lại hoặc làm lại liên tục cho nhớ không thì chết con mẹ đó.Quên hết ngay.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                What's your next goal?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Theo gì thì học nấy 
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+              When do you go to practice?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Càng sớm càng tốt nha dcmm.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="instructors" class="p-5 bg-secondary">
+      <div class="container">
+        <h2 class="text-center text-white">Our Instructors</h2>
+        <p class="lead text-center text-white mb-5">
+          Team work
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg- light">
+              <div class="card-body text-center">
+                <img
+                  style="width: 128px; height: 128px; object-fit: cover;"
+                  src="./img/duc.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mg-3">Nguyễn Văn Đức</h3>
+                <p class="card-text">
+                  Ông trùm xã hội đen đến từ Tây Ninh.
+                  <br>
+                  Nắm trong tay hàng ngàn kiến thức về hack nasa, tạo ra phần mềm nhận diện tiếng chó sủa.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg- light">
+              <div class="card-body text-center">
+                <img
+                  style="width: 128px; height: 128px; object-fit: cover;"
+                  src="./img/khanh.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mg-3">Phạm Quốc Khánh</h3>
+                <p class="card-text">
+                  Con chó đến từ Bắc Giang hay nịnh hót a Đức xã hội đen
+                  <br>
+                  Có sở thích bị đấm vô mồm hay còn gọi là bdsm cực mạnh
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg- light">
+              <div class="card-body text-center">
+                <img
+                  style="width: 128px; height: 128px; object-fit: cover;"
+                  src="./img/dong.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mg-3">Phạm Văn Đông</h3>
+                <p class="card-text">
+                  Em Đông hay được gọi theo cách khác là gao bạc chuyên ngành đa cấp
+                  <br>
+                  thường xuyên gạ đ*t bà già hoặc trẻ nhỏ vài năm tháng tuổi.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg- light">
+              <div class="card-body text-center">
+                <img
+                  style="width: 128px; height: 128px; object-fit: cover;"
+                  src="./img/son.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mg-3">Lê Thanh Sơn</h3>
+                <p class="card-text">
+                  Ông trùm ngủ gục, có thể ngủ mọi nơi kể cả nhà vệ sinh 
+                  <br>
+                  Kẻ nắm giữ kiến thức đồ sộ về IT
+                  <br>
+                  thói quen hay làm: Ngủ gãi đít
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact & Map -->
+    <section id="contactmap" class="p-5">
+      <div class="cocntainer">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 173 Khâm Thiên Hà Nội
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone:</span> 0368469849
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone 2:</span> 0559564923
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span> nvd2k3@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Mail:</span>2151163682@e.tlu.edu.vn
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <a href="https://goo.gl/maps/N97gBpt2ahUiHfRUA" target="_blank"
+              ><img
+                id="map"
+                class="img-fluid"
+                src="./img/z4384222366782_18ae0e3e9ad3d490a28ff2d1ea531954.jpg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Say good byes</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+   <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form action="">
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">First Name:</label>
+              <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Last Name:</label>
+              <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Phone:</label>
+              <input type="text" class="form-control" id="phone">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
